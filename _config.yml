@@ -1,0 +1,25 @@
+# Site settings
+permalink: /:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+title: site title
+email: yout email
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://username.github.com/projectname" # the base hostname & protocol for your site
+github_username:  github_username
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# site info for your project
+info:
+    username: yourname
+    projectname: projectname
+    branchname: master
+    tagline: project brief
+
+google_analytics_code: 'UA-50450008-2'      # replace with your google analytics code
